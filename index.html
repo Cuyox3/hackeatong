@@ -3,9 +3,185 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+     <title>SPORTSHUB - Oferta Exclusiva</title>
+    <!-- Importamos fuentes tipográficas de alto impacto deportivo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     
+    <!-- HERO SECTION -->
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="header-logo">SPORTS<span class="accent-text">HUB</span></div>
+            
+            <div class="hero-grid">
+                <div class="hero-text">
+                    <div class="badge">¡Descuento Directo de Bienvenida!</div>
+                    <h1>OFERTA EXCLUSIVA<br><span class="accent-text">-50% EN TU PRIMER</span><br>PEDIDO.</h1>
+                    <p>Toda la colección premium con tecnología de alto rendimiento, ahora a mitad de precio para nuevos miembros. No te lo pierdas.</p>
+                    <a href="#productos" class="btn">Obtén mi descuento ya →</a>
+                </div>
+                
+                <div class="hero-image-container">
+                    <!-- Elementos flotantes interactivos de la imagen original -->
+                    <div class="floating-discount-badge">
+                        <span>¡DESCUENTO DIRECTO!</span>
+                    </div>
+                    <div class="hero-product-card shoe-float">
+                        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=600&auto=format&fit=crop" alt="Tenis running premium">
+                        <div class="product-info-overlay">Tecnología Apex Cushion</div>
+                    </div>
+                    <div class="hero-product-card watch-float">
+                        <img src="https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?q=80&w=400&auto=format&fit=crop" alt="Smartwatch deportivo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- SECCIÓN PRINCIPAL -->
+    <main class="main-content" id="productos">
+        
+        <!-- Categorías con imágenes de fondo -->
+        <section class="section-container animate-on-scroll">
+            <div class="categories-grid">
+                <a href="#productos" class="category-card" style="background-image: linear-gradient(to top, rgba(0,0,0,0.8) 20%, rgba(0,0,0,0.2)), url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=500&auto=format&fit=crop');">
+                    <div class="category-title">Calzado</div>
+                    <div class="category-link">Ver Colección →</div>
+                </a>
+                <a href="#productos" class="category-card" style="background-image: linear-gradient(to top, rgba(0,0,0,0.8) 20%, rgba(0,0,0,0.2)), url('https://images.unsplash.com/photo-1518310383802-640c2de311b2?q=80&w=500&auto=format&fit=crop');">
+                    <div class="category-title">Ropa</div>
+                    <div class="category-link">Ver Colección →</div>
+                </a>
+                <a href="#productos" class="category-card" style="background-image: linear-gradient(to top, rgba(0,0,0,0.8) 20%, rgba(0,0,0,0.2)), url('https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=500&auto=format&fit=crop');">
+                    <div class="category-title">Accesorios</div>
+                    <div class="category-link">Ver Colección →</div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Productos Estrella -->
+        <section class="section-container animate-on-scroll">
+            <h2 class="section-title">Categorías y Productos Estrella</h2>
+            <div class="products-grid">
+                <!-- Producto 1 -->
+                <div class="product-card">
+                    <div class="product-thumb">
+                        <span class="product-tag sale">-50%</span>
+                        <img src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?q=80&w=400&auto=format&fit=crop" alt="Apex Run 5">
+                    </div>
+                    <div class="product-name">Apex Run 5 Shoes</div>
+                    <div class="product-rating">★★★★★</div>
+                    <div class="product-price"><span class="old-price">$129.99</span>$64.99</div>
+                    <button class="view-product-btn">Ver Producto</button>
+                </div>
+                <!-- Producto 2 -->
+                <div class="product-card">
+                    <div class="product-thumb">
+                        <span class="product-tag">Popular</span>
+                        <img src="https://images.unsplash.com/photo-1581655353564-df123a1eb820?q=80&w=400&auto=format&fit=crop" alt="Flow Dry Shirt">
+                    </div>
+                    <div class="product-name">Flow Dry Shirt</div>
+                    <div class="product-rating">★★★★★</div>
+                    <div class="product-price"><span class="old-price">$45.99</span>$22.99</div>
+                    <button class="view-product-btn">Ver Producto</button>
+                </div>
+                <!-- Producto 3 -->
+                <div class="product-card">
+                    <div class="product-thumb">
+                        <span class="product-tag sale">-50%</span>
+                        <img src="https://images.unsplash.com/photo-1539185441755-769473a23570?q=80&w=400&auto=format&fit=crop" alt="Active Leggings">
+                    </div>
+                    <div class="product-name">Active Leggings</div>
+                    <div class="product-rating">★★★★★</div>
+                    <div class="product-price"><span class="old-price">$64.99</span>$32.49</div>
+                    <button class="view-product-btn">Ver Producto</button>
+                </div>
+                <!-- Producto 4 -->
+                <div class="product-card">
+                    <div class="product-thumb">
+                        <span class="product-tag">Nuevo</span>
+                        <img src="https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?q=80&w=400&auto=format&fit=crop" alt="Velocity Backpack">
+                    </div>
+                    <div class="product-name">Velocity Backpack</div>
+                    <div class="product-rating">★★★★★</div>
+                    <div class="product-price"><span class="old-price">$89.99</span>$44.99</div>
+                    <button class="view-product-btn">Ver Producto</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Propuestas de Valor Integradas -->
+        <section class="section-container animate-on-scroll">
+            <h2 class="section-title text-center">Propuesta de Valor</h2>
+            <div class="props-grid">
+                <div class="prop-card">
+                    <div class="prop-icon">🚚</div>
+                    <div class="prop-title">Envío Rápido 24/48h</div>
+                    <div class="prop-desc">Envío premium rastreable directamente hasta tu puerta de manera veloz.</div>
+                </div>
+                <div class="prop-card">
+                    <div class="prop-icon">🔄</div>
+                    <div class="prop-title">Devoluciones Gratis 30 Días</div>
+                    <div class="prop-desc">Pruébatelo con calma, los cambios de talla y devoluciones corren por nuestra cuenta.</div>
+                </div>
+                <div class="prop-card">
+                    <div class="prop-icon">🔒</div>
+                    <div class="prop-title">Pago Seguro SSL</div>
+                    <div class="prop-desc">Tus transacciones y datos están protegidos bajo estrictos protocolos de cifrado.</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Banner de Descuento Flotante Central -->
+        <section class="middle-discount-banner animate-on-scroll">
+            <div class="big-circle-badge">
+                <h2>¡DESCUENTO<br>DIRECTO!</h2>
+            </div>
+            <div class="banner-showcase-item">
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=600&auto=format&fit=crop" alt="Calzado Descuento">
+            </div>
+        </section>
+
+    </main>
+
+    <!-- BANNER DE CAMPAÑA EXTRA -->
+    <section class="campaign-banner animate-on-scroll">
+        <div class="campaign-container">
+            <div>
+                <h3>URBAN PRO CAMPAIGN</h3>
+                <p>COLECCIÓN URBAN PRO - Diseñada para la calle, construida para el rendimiento.</p>
+            </div>
+            <a href="#productos" class="btn-campaign">Descubrir Colección</a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div class="footer-logo">SPORTS<span class="accent-text">HUB</span></div>
+            </div>
+            <div class="footer-newsletter">
+                <div class="newsletter-box">
+                    <h4>ÚNETE AL CLUB (OFERTA INICIAL 50%)</h4>
+                    <div class="newsletter-form">
+                        <input type="email" class="newsletter-input" placeholder="Únete al club y recibe 10%" required>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-links">
+                <a href="#">Soporte</a>
+                <a href="#">Guía Tallas</a>
+                <a href="#">Envíos</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
