@@ -1,6 +1,7 @@
+
 document.addEventListener("DOMContentLoaded", () => {
     
-    // --- EFECTO DE ENTRADA SUAVE ---
+    // --- EFECTO ENTRADA SUAVE (Intersection Observer) ---
     const animatedSections = document.querySelectorAll(".animate-on-scroll");
 
     const revealSection = (entries, observer) => {
@@ -21,4 +22,17 @@ document.addEventListener("DOMContentLoaded", () => {
     animatedSections.forEach(section => {
         sectionObserver.observe(section);
     });
+
+    // --- ANIMACIÓN AL PASAR EL CURSOR POR LAS CATEGORÍAS ---
+    const categoryCards = document.querySelectorAll(".category-card");
+    
+    categoryCards.forEach(card => {
+        card.addEventListener("mouseenter", () => {
+            card.style.boxShadow = "0 15px 30px rgba(204,255,0,0.2)";
+        });
+        card.addEventListener("mouseleave", () => {
+            card.style.boxShadow = "none";
+        });
+    });
 });
+
