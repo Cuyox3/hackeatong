@@ -23,8 +23,10 @@ document.addEventListener("DOMContentLoaded", () => {
         sectionObserver.observe(section);
     });
 
-    // --- ANIMACIÓN AL PASAR EL CURSOR POR LAS CATEGORÍAS ---
-    const categoryCards = document.querySelectorAll(".category-card");
+});
+
+  const categoryCards = document.querySelectorAll(".category-card");
+
     
     categoryCards.forEach(card => {
         card.addEventListener("mouseenter", () => {
@@ -33,6 +35,6 @@ document.addEventListener("DOMContentLoaded", () => {
         card.addEventListener("mouseleave", () => {
             card.style.boxShadow = "none";
         });
+
     });
-});
 
