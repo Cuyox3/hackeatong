@@ -1,4 +1,4 @@
- const categoryCards = document.querySelectorAll(".category-card");
+  const categoryCards = document.querySelectorAll(".category-card");
     
     categoryCards.forEach(card => {
         card.addEventListener("mouseenter", () => {
@@ -8,3 +8,4 @@
             card.style.boxShadow = "none";
         });
     });
+    
