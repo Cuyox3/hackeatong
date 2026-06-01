@@ -33,7 +33,7 @@ h1, h2, h3, h4, .header-logo, .category-title, .btn, .badge {
    ========================================== */ 
 .hero { 
     position: relative; 
-    background-image: url('https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?q=80&w=1600&auto=format&fit=crop'); 
+    background-image: url('https://static.vecteezy.com/system/resources/previews/054/483/349/large_2x/person-running-with-their-feet-in-the-air-and-the-ground-covered-in-small-rocks-concept-of-motion-and-energy-as-if-the-person-is-in-the-middle-of-a-race-or-a-sprint-free-photo.jpg'); 
     background-size: cover; 
     background-position: center; 
     padding: 80px 40px 120px 40px; 
