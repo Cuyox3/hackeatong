@@ -21,9 +21,9 @@ document.addEventListener("DOMContentLoaded", () => {
     animatedSections.forEach(section => {
         sectionObserver.observe(section);
     });
+});
 
-    // --- ANIMACIÓN AL PASAR EL CURSOR POR LAS CATEGORÍAS ---
-    const categoryCards = document.querySelectorAll(".category-card");
+  const categoryCards = document.querySelectorAll(".category-card");
     
     categoryCards.forEach(card => {
         card.addEventListener("mouseenter", () => {
@@ -33,4 +33,3 @@ document.addEventListener("DOMContentLoaded", () => {
             card.style.boxShadow = "none";
         });
     });
-});
