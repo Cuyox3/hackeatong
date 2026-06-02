@@ -22,11 +22,9 @@ document.addEventListener("DOMContentLoaded", () => {
     animatedSections.forEach(section => {
         sectionObserver.observe(section);
     });
-
 });
 
   const categoryCards = document.querySelectorAll(".category-card");
-
     
     categoryCards.forEach(card => {
         card.addEventListener("mouseenter", () => {
@@ -35,6 +33,4 @@ document.addEventListener("DOMContentLoaded", () => {
         card.addEventListener("mouseleave", () => {
             card.style.boxShadow = "none";
         });
-
     });
-
